@@ -22,7 +22,7 @@
 
 module.exports = {
   TOKEN: "",
-  ownerID: ["1004206704994566164", ""],
+  ownerID: ["1044998751472844880", ""],
   botInvite: "",
   supportServer: "",
   mongodbURL: "mongodb+srv://shiva:shiva@musicbotyt.ouljywv.mongodb.net/?retryWrites=true&w=majority",
@@ -34,7 +34,7 @@ module.exports = {
 
 
   sponsor: {
-    status: true,
+    status: false,
     url: "https://www.youtube.com/@GlaceYT",
   },
 
@@ -60,7 +60,7 @@ module.exports = {
     },
 
     voiceConfig: {
-      leaveOnFinish: false,
+      leaveOnFinish: true,
       leaveOnStop: false,
       leaveOnEmpty: {
         status: true,
